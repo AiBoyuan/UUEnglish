@@ -56,12 +56,68 @@
 			children = (
 				021A60011FC826FC006E9489 /* AppDelegate.swift */,
 				021A60031FC826FC006E9489 /* ViewController.swift */,
+				021A60181FC82861006E9489 /* Macros */,
+				021A60131FC8280E006E9489 /* Model */,
+				021A60141FC82829006E9489 /* View */,
+				021A60151FC82844006E9489 /* ViewControl */,
+				021A60161FC8284D006E9489 /* Utils */,
+				021A60171FC82855006E9489 /* Vendor */,
+				021A60191FC82868006E9489 /* Resource */,
 				021A60051FC826FC006E9489 /* Main.storyboard */,
 				021A60081FC826FC006E9489 /* Assets.xcassets */,
 				021A600A1FC826FC006E9489 /* LaunchScreen.storyboard */,
 				021A600D1FC826FC006E9489 /* Info.plist */,
 			);
 			path = UUEnglish;
+			sourceTree = "<group>";
+		};
+		021A60131FC8280E006E9489 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		021A60141FC82829006E9489 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		021A60151FC82844006E9489 /* ViewControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControl;
+			sourceTree = "<group>";
+		};
+		021A60161FC8284D006E9489 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		021A60171FC82855006E9489 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		021A60181FC82861006E9489 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		021A60191FC82868006E9489 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +152,7 @@
 				TargetAttributes = {
 					021A5FFD1FC826FC006E9489 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FR3SC3EULN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,7 +317,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FR3SC3EULN;
 				INFOPLIST_FILE = UUEnglish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uuabc.UUEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +331,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FR3SC3EULN;
 				INFOPLIST_FILE = UUEnglish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uuabc.UUEnglish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
