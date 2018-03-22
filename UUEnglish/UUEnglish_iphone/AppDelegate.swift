@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UUEnglish
+//  UUEnglish_iphone
 //
-//  Created by Aibo on 2017/11/24.
+//  Created by Aibo on 2017/12/6.
 //  Copyright © 2017年 uuabc. All rights reserved.
 //
 
